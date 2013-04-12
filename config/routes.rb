@@ -1,6 +1,7 @@
 PlV1::Application.routes.draw do
   resources :promotions
 
+  root :to =>'users#new'
 
   resources :users
 
